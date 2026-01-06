@@ -1,0 +1,109 @@
+/* =========================
+   AUTH (LOGIN / SIGNUP)
+========================= */
+
+.auth-box {
+  width: 100%;
+  max-width: 420px;
+  margin: 100px auto;
+  background: linear-gradient(180deg, #1c1f26, #14161b);
+  padding: 35px 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.65);
+}
+
+.auth-box h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f5c16c;
+  margin-bottom: 25px;
+  letter-spacing: 0.4px;
+}
+
+/* =========================
+   FORM ELEMENTS
+========================= */
+
+.auth-box label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #bfbfbf;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #0f1115;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.auth-box input:focus {
+  border-color: #f5c16c;
+  box-shadow: 0 0 0 2px rgba(245, 193, 108, 0.15);
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: #f5c16c;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #e0ae56;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   ERROR MESSAGE
+========================= */
+
+.auth-box p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 15px;
+  color: #bfbfbf;
+}
+
+.auth-box p[style*="color:red"] {
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #ff6b6b !important;
+}
+
+/* =========================
+   LINK
+========================= */
+
+.auth-box a {
+  color: #f5c16c;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.auth-box a:hover {
+  color: #e0ae56;
+}
+
+/* =========================
+   RESPONSIVE
+============
